@@ -17,20 +17,21 @@
   <meta http-equiv="window-target" content="_top">
   
   
-  <title>归档: 2019 | 于文博博客</title>
-  <meta name="description" content="于文博的博客-个人博客-个人网站">
-<meta name="keywords" content="于文博的博客,个人博客,个人网站,前端,JS,JavaScript,Vue">
-<meta property="og:type" content="website">
-<meta property="og:title" content="于文博的博客">
-<meta property="og:url" content="http://yuwenbo.com/archives/2019/index.html">
+  <title>节流防抖函数的封装与使用 | 于文博博客</title>
+  <meta name="description" content="在我们在一些 搜索联想时，经常根据用户在搜索框内输入的内容，获取联想搜索词 如果不做一些措施，会发送很多次数据请求，浪费资源，因为做一个防抖函数就很有必要。  根据延时器 封装一个函数12345678910111213/* *  fun 为需要调用的函数  当满足条件时使用apply进行条用执行 *  delay 为延时时间 可以设定默认时间 */const debounce = (fun, d">
+<meta name="keywords" content="前端">
+<meta property="og:type" content="article">
+<meta property="og:title" content="节流防抖函数的封装与使用">
+<meta property="og:url" content="http://yuwenbo.com/2019/08/21/防抖函数的封装与使用/index.html">
 <meta property="og:site_name" content="于文博的博客">
-<meta property="og:description" content="于文博的博客-个人博客-个人网站">
+<meta property="og:description" content="在我们在一些 搜索联想时，经常根据用户在搜索框内输入的内容，获取联想搜索词 如果不做一些措施，会发送很多次数据请求，浪费资源，因为做一个防抖函数就很有必要。  根据延时器 封装一个函数12345678910111213/* *  fun 为需要调用的函数  当满足条件时使用apply进行条用执行 *  delay 为延时时间 可以设定默认时间 */const debounce = (fun, d">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-08-21T06:25:19.960Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="于文博的博客">
-<meta name="twitter:description" content="于文博的博客-个人博客-个人网站">
+<meta name="twitter:title" content="节流防抖函数的封装与使用">
+<meta name="twitter:description" content="在我们在一些 搜索联想时，经常根据用户在搜索框内输入的内容，获取联想搜索词 如果不做一些措施，会发送很多次数据请求，浪费资源，因为做一个防抖函数就很有必要。  根据延时器 封装一个函数12345678910111213/* *  fun 为需要调用的函数  当满足条件时使用apply进行条用执行 *  delay 为延时时间 可以设定默认时间 */const debounce = (fun, d">
   <!-- Canonical links -->
-  <link rel="canonical" href="http://yuwenbo.com/archives/2019/index.html">
+  <link rel="canonical" href="http://yuwenbo.com/2019/08/21/防抖函数的封装与使用/index.html">
   
     <link rel="alternate" href="/atom.xml" title="于文博的博客" type="application/atom+xml">
   
@@ -272,58 +273,125 @@
   
   
 <main class="main" role="main">
-  	<article class="content article article-archives article-type-list" itemscope="">
-	    <header class="article-header">
-	      <h1 itemprop="title">归档: 2019</h1>
-	      <p class="text-muted">共 2 篇文章</p>
-	    </header>
-	    <div class="article-body">
-	      
-  
-  
+  <div class="content">
+  <article id="post-防抖函数的封装与使用" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
     
-    
+    <div class="article-header">
       
+        
+  
+    <h1 class="article-title" itemprop="name">
+      节流防抖函数的封装与使用
+    </h1>
+  
+
       
-      <section class="panel panel-default b-no">
-        <div class="panel-heading" role="tab">
-          <h3 class="panel-title">
-            <a data-toggle="collapse" href="#collapse2019" aria-expanded="true">
-              <i class="icon icon-calendar-plus text-active"></i><i class="icon icon-calendar-minus text"></i>
-              2019
-            </a>
-            <!-- <a href="/archives/2019" class="archive-year">2019</a> -->
-          </h3>
-        </div>
-        <div id="collapse2019" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading2019">
-        <div class="panel-body">
-          <div class="collection">
+      <div class="article-meta">
+        <span class="article-date">
+    <i class="icon icon-calendar-check"></i>
+	<a href="/2019/08/21/防抖函数的封装与使用/" class="article-date">
+	  <time datetime="2019-08-21T06:14:01.000Z" itemprop="datePublished">2019-08-21</time>
+	</a>
+</span>
+        
+        
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>
+	<a class="article-tag-link" href="/tags/前端/">前端</a>
+  </span>
+
+
+        
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2019/08/21/防抖函数的封装与使用/#comments" class="article-comment-link">评论</a></span>
+        
+      </div>
+    </div>
+    <div class="article-entry marked-body" itemprop="articleBody">
+      
+        <blockquote>
+<p>在我们在一些 搜索联想时，经常根据用户在搜索框内输入的内容，获取联想搜索词 如果不做一些措施，会发送很多次数据请求，浪费资源，因为做一个防抖函数就很有必要。</p>
+</blockquote>
+<h5 id="根据延时器-封装一个函数"><a href="#根据延时器-封装一个函数" class="headerlink" title="根据延时器 封装一个函数"></a>根据延时器 封装一个函数</h5><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment"> *  fun 为需要调用的函数  当满足条件时使用apply进行条用执行</span></span><br><span class="line"><span class="comment"> *  delay 为延时时间 可以设定默认时间</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">const</span> debounce = <span class="function">(<span class="params">fun, delay = <span class="number">200</span></span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="keyword">let</span> timeout = <span class="literal">null</span></span><br><span class="line">  <span class="keyword">return</span> <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    clearTimeout(timeout)</span><br><span class="line">    timeout = setTimeout(<span class="function"><span class="params">()</span> =&gt;</span> &#123;</span><br><span class="line">      fun.apply(<span class="keyword">this</span>, <span class="built_in">arguments</span>)</span><br><span class="line">    &#125;, delay)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>根据上述函数：当用户在搜索框输入内容时 触发 input 事件 用户调用防抖函数 如果用户在规定时间内 再次输入内容，将清除延时器，不会执行数据请求，只有当用户在规定时间内，没有再次输入或者输入完成时，才会执行数据请求。从而实现减少 数据请求次数。实现节流防抖</p>
+</blockquote>
+
+      
+    </div>
+    <div class="article-footer">
+      <blockquote class="mt-2x">
+  <ul class="post-copyright list-unstyled">
     
+    <li class="post-copyright-link hidden-xs">
+      <strong>本文链接：</strong>
+      <a href="http://yuwenbo.com/2019/08/21/防抖函数的封装与使用/" title="节流防抖函数的封装与使用" target="_blank" rel="external">http://yuwenbo.com/2019/08/21/防抖函数的封装与使用/</a>
+    </li>
     
-<a href="/2019/08/21/防抖函数的封装与使用/" class="collection-item" target="_blank" itemprop="url">
-  <time datetime="2019-08-21T06:14:01.000Z" itemprop="datePublished">2019-08-21</time>
-  <span>&nbsp;&nbsp;&nbsp;</span> 节流防抖函数的封装与使用
-</a>
+    <li class="post-copyright-license">
+      <strong>版权声明： </strong> 本博客所有文章除特别声明外，均采用 <a href="http://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="external">CC BY 4.0 CN协议</a> 许可协议。转载请注明出处！
+    </li>
+  </ul>
+</blockquote>
+
+
+<div class="panel panel-default panel-badger">
+  <div class="panel-body">
+    <figure class="media">
+      <div class="media-left">
+        <a href="https://github.com/yuenooo" target="_blank" class="img-burn thumb-sm visible-lg">
+          <img src="/images/avatar.jpg" class="img-rounded w-full" alt="">
+        </a>
+      </div>
+      <div class="media-body">
+        <h3 class="media-heading"><a href="https://github.com/yuenooo" target="_blank"><span class="text-dark">于文博</span><small class="ml-1x">前端工程师</small></a></h3>
+        <div>心怀敬畏。</div>
+      </div>
+    </figure>
+  </div>
+</div>
+
+
+    </div>
+  </article>
+  
+    
+  <section id="comments">
+  	
+      <div id="vcomments"></div>
+    
+  </section>
 
 
   
+</div>
+
+  <nav class="bar bar-footer clearfix" data-stick-bottom>
+  <div class="bar-inner">
+  
+  <ul class="pager pull-left">
     
     
+    <li class="next">
+      <a href="/2019/08/21/欢迎来到我的博客/" title="欢迎来到我的博客~"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
+    </li>
     
-<a href="/2019/08/21/欢迎来到我的博客/" class="collection-item" target="_blank" itemprop="url">
-  <time datetime="2019-08-21T05:51:57.000Z" itemprop="datePublished">2019-08-21</time>
-  <span>&nbsp;&nbsp;&nbsp;</span> 欢迎来到我的博客~
-</a>
-
-
+    
+  </ul>
   
   
-    </div></div></div></section>
+  
+  <div class="bar-right">
+    
+    <div class="share-component" data-sites="weibo,qq,wechat,facebook,twitter" data-mobile-sites="weibo,qq,qzone"></div>
+    
+  </div>
+  </div>
+</nav>
   
 
-	    </div>
-  	</article>
-  	 	
+
 </main>
 
   <footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
@@ -380,6 +448,37 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
 
 
 
+
+   
+
+
+
+
+   
+    
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/valine"></script>
+  <script type="text/javascript">
+  var GUEST = ['nick', 'mail', 'link'];
+  var meta = 'nick,mail,link';
+  meta = meta.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#vcomments',
+    verify: false,
+    notify: false,
+    appId: '',
+    appKey: '',
+    placeholder: 'Just go go',
+    avatar: 'mm',
+    meta: meta,
+    pageSize: '10' || 10,
+    visitor: false
+  });
+  </script>
+
+     
 
 
 
